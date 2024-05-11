@@ -59,7 +59,10 @@ public:
 		}	//return the value of the top node
 	}
 
-
+	// isEmpty operation: check if the stack is empty
+	bool isEmpty() {
+		return top == NULL;
+	}
 };
 
 int main()
